@@ -27,7 +27,7 @@ describe('Mumbai Trip',function(){
         cy.get('#tbssbmtbtn').click()
         
     })
-    it.only('Fight booking',function(){
+    it('Fight booking',function(){
         cy.visit('https://in.via.com/flight-tickets')
         cy.get('#source').type('mum')
         cy.get('span[class="name"]').each(($ele,index,$list)=>{
@@ -53,5 +53,8 @@ describe('Mumbai Trip',function(){
             cy.get('#return').click()
             cy.get('div[data-date="28"]').click({force: true})
         })
+    })
+    it.only('mera name',function(){
+        cy.visit('https://www.s3india.com/')
     })
 })
