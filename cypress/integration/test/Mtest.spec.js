@@ -33,6 +33,7 @@ describe('My test',function(){
             }
         })
         cy.get('span[class="a-dropdown-prompt"]').click().wait(4000)
-        cy.get('a[href="/Stylist-Different-Attractive-Analog-Watch/dp/B07S7JZV1P/ref=sr_1_12?crid=RNBB2O2RB2PB&keywords=watches+for+boys&qid=1664818395&qu=eyJxc2MiOiI4LjEwIiwicXNhIjoiOC4zMCIsInFzcCI6IjYuODAifQ%3D%3D&sprefix=watches+for+boys%2Caps%2C482&sr=8-12"]').click()
+        cy.get('')
+        //cy.get('a[href="/Stylist-Different-Attractive-Analog-Watch/dp/B07S7JZV1P/ref=sr_1_12?crid=RNBB2O2RB2PB&keywords=watches+for+boys&qid=1664818395&qu=eyJxc2MiOiI4LjEwIiwicXNhIjoiOC4zMCIsInFzcCI6IjYuODAifQ%3D%3D&sprefix=watches+for+boys%2Caps%2C482&sr=8-12"]').click()
     })
 })
