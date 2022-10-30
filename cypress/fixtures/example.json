@@ -1,5 +1,4 @@
 {
-  "website": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
-  "fullName": "Admin",
-  "number": "admin123"
+  "username": "Admin",
+  "password": "admin123"
 }

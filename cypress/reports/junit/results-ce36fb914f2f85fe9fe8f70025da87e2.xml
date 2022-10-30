@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.639" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-10-21T15:08:39" tests="0" file="cypress/integration/test/resizablelemnt.spec.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="resizablelemnt" timestamp="2022-10-21T15:08:39" tests="1" time="14.361" failures="0">
+    <testcase name="resizablelemnt test" time="4.710" classname="test">
+    </testcase>
+  </testsuite>
+</testsuites>

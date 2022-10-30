@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.585" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-10-21T15:12:34" tests="0" file="cypress/integration/test/slider.spec.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="sliderscenario" timestamp="2022-10-21T15:12:34" tests="1" time="11.221" failures="0">
+    <testcase name="sliderscenario test" time="3.347" classname="test">
+    </testcase>
+  </testsuite>
+</testsuites>

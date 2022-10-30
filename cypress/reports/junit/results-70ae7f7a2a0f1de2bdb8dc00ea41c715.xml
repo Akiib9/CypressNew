@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="38.450" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-10-21T15:04:32" tests="0" file="cypress/integration/test/Login.spec.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login test" timestamp="2022-10-21T15:04:32" tests="1" time="38.186" failures="1">
+    <testcase name="Login test my first test cases" time="0.000" classname="my first test cases">
+      <failure message="Timed out retrying after 8050ms: `cy.click()` failed because this element:
+
+`&lt;button type=&quot;button&quot; class=&quot;oxd-button oxd-button--medium oxd-button--secondary&quot; data-v-7e88b27e=&quot;&quot; data-v-31d6f9fc=&quot;&quot;&gt;...&lt;/button&gt;`
+
+is being covered by another element:
+
+`&lt;div class=&quot;oxd-topbar-header-title&quot; data-v-1c40f28d=&quot;&quot;&gt;...&lt;/div&gt;`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 8050ms: `cy.click()` failed because this element:
+
+`<button type="button" class="oxd-button oxd-button--medium oxd-button--secondary" data-v-7e88b27e="" data-v-31d6f9fc="">...</button>`
+
+is being covered by another element:
+
+`<div class="oxd-topbar-header-title" data-v-1c40f28d="">...</div>`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:168905:78)
+    at ensureDescendents (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:154402:8)
+    at ensureDescendentsAndScroll (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:154409:14)
+    at ensureElIsNotCovered (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:154541:5)
+    at runAllChecks (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:154731:52)
+    at retryActionability (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:154755:16)
+    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:13022:23)
+    at Function.Promise.attempt.Promise.try (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:10296:29)
+    at whenStable (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:173835:65)
+    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:173290:14
+    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:13022:23)
+    at Promise._settlePromiseFromHandler (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:10957:31)
+    at Promise._settlePromise (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11014:18)
+    at Promise._settlePromise0 (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11059:10)
+    at Promise._settlePromises (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11139:18)
+    at Promise._fulfill (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11083:18)
+From Your Spec Code:
+    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\integration\test\Login.spec.js:106:57)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

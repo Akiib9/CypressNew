@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.803" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-10-21T15:14:01" tests="0" file="cypress/integration/test/Test.spec.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Dropdown, Check box, Radio button" timestamp="2022-10-21T15:14:02" tests="1" time="28.534" failures="1">
+    <testcase name="Dropdown, Check box, Radio button Dropdown test" time="0.000" classname="Dropdown test">
+      <failure message="Timed out after waiting `10000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `10000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands." type="CypressError"><![CDATA[CypressError: Timed out after waiting `10000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `10000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+    at timedOutWaitingForPageLoad (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:162428:74)
+    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:163647:16
+    at tryCatcher (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:13022:23)
+    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:8144:41
+    at tryCatcher (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:13022:23)
+    at Promise._settlePromiseFromHandler (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:10957:31)
+    at Promise._settlePromise (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:11014:18)
+    at Promise._settlePromise0 (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:11059:10)
+    at Promise._settlePromises (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:11135:18)
+    at _drainQueueStep (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:7729:12)
+    at _drainQueue (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:7722:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:7738:5)
+    at Async.drainQueues (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:7608:14)
+From Your Spec Code:
+    at Context.eval (https://rahulshettyacademy.com/__cypress/tests?p=cypress\integration\test\Test.spec.js:106:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

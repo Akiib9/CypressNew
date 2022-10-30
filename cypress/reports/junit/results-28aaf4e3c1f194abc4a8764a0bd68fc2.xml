@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="59.729" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-10-21T15:07:29" tests="0" file="cypress/integration/test/Practice.spec.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Fine set" timestamp="2022-10-21T15:07:29" tests="1" time="30.662" failures="0">
+    <testcase name="Fine set Loading" time="22.383" classname="Loading">
+    </testcase>
+  </testsuite>
+  <testsuite name="Site test" timestamp="2022-10-21T15:08:00" tests="1" time="28.776" failures="0">
+    <testcase name="Site test Final test" time="11.807" classname="Final test">
+    </testcase>
+  </testsuite>
+</testsuites>
